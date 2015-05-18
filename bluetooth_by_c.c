@@ -86,7 +86,7 @@ int main(int argc, char **argv)
     {
     while(1) {
         j++;
-        status = recv(s, buff, 16, 0);
+        status = recv(s, buff, 1, 0);
         buff[16]=0;
         int i=0;
         unsigned short prev;
